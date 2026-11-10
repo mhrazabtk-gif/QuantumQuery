@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://quantum-query.pages.dev';
+const DOMAIN = 'https://quantum-query.pageaura.xyz';
 const KEY = '9637991ddd124b4a81e3f9eb37db7d3e';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'quantum-query.pages.dev' ||
+    url.hostname.toLowerCase() !== 'quantum-query.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
