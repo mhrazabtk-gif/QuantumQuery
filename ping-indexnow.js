@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'quantum-query.pages.dev';
+const HOST = 'quantum-query.pageaura.xyz';
 const KEY = '9637991ddd124b4a81e3f9eb37db7d3e';
-const KEY_LOCATION = `https://quantum-query.pages.dev/9637991ddd124b4a81e3f9eb37db7d3e.txt`;
+const KEY_LOCATION = `https://quantum-query.pageaura.xyz/9637991ddd124b4a81e3f9eb37db7d3e.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
